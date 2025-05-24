@@ -1,9 +1,8 @@
 from tkinter import *
 
-tk = Tk()
+root = Tk()
 
-label = Label(tk,text='LoRAMD')
+root.title ("LoRAMD")
+root.geometry("500x600")
 
-label.pack()
-
-tk.mainloop()
+root.mainloop()
